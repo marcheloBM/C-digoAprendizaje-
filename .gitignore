@@ -1,0 +1,59 @@
+# --- General ---
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# --- IDEs ---
+# NetBeans
+/nbproject/private/
+/build/
+/dist/
+/nbbuild/
+/nbdist/
+/.nb-gradle/
+
+# Android Studio / IntelliJ
+/.idea/
+/.gradle/
+/build/
+/captures/
+/local.properties
+*.iml
+
+# Visual Studio / C#
+.vs/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.cache
+*.pdb
+*.mdb
+
+# --- Java ---
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# --- PHP / Composer ---
+vendor/
+composer.lock
+
+# --- Node.js (si usas algo en PHP o Android con JS) ---
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# --- MySQL / BD ---
+*.sql
+*.db
+*.sqlite
+
+# --- Otros ---
+.env
